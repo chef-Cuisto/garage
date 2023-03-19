@@ -1,0 +1,1 @@
+Création de la base de données qui se nomme "garage";

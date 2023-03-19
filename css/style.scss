@@ -1,0 +1,279 @@
+        @font-face {
+            font-family: 'Righteous';
+            src: url(../polices/Righteous-Regular.ttf);
+        }
+        
+        @font-face {
+            font-family: 'Nunito';
+            src: url(../polices/Nunito-Light.ttf );
+        }
+        
+        @font-face {
+            font-family: 'Poppins';
+            src: url(../polices/Poppins-Medium.ttf);
+        }
+        
+        $color_blue: #0E7AE6;
+        $color_text: white;
+        body {
+            header {
+                .navbar {
+                    font-family: Nunito;
+                    background-color: rgb(22, 25, 34);
+                    .first_color {
+                        font-family: Righteous;
+                        color: $color_blue;
+                    }
+                    .snd_color {
+                        font-family: Righteous;
+                        color: $color_text;
+                    }
+                    .navbar-collapse {
+                        flex-grow: unset;
+                        li {
+                            &:hover {
+                                background-color: $color_blue;
+                            }
+                            a {
+                                color: white;
+                                i {
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            /*****************PARTIE SECTION*******************/
+            .section_1 {
+                .width-custom {
+                    width: 80%;
+                }
+                .carousel-caption {
+                    top: 30%;
+                }
+                .sizing-menu {
+                    font-size: 5rem;
+                }
+                .color_bg {
+                    z-index: 5000;
+                    background-color: $color_blue;
+                }
+            }
+            .section_2 {
+                height: 100vh;
+                .container {
+                    .box_contact {
+                        border-radius: 1rem 0rem 0rem 1rem;
+                        margin-top: 10rem;
+                        box-shadow: 0.2rem 0.1rem 0.3rem rgb(173, 173, 173);
+                        form {
+                            h1,
+                            h5 {
+                                padding-left: 6.3rem;
+                                ;
+                            }
+                            margin: 0 auto;
+                            width: 100%;
+                            text-align: center;
+                            .input_contact {
+                                padding: 0.8rem;
+                                background: #e3ecfa;
+                                border: white 1px solid;
+                                width: 70%;
+                            }
+                            input[type='submit'] {
+                                background-color: $color_blue;
+                                border: none;
+                            }
+                        }
+                    }
+                    .box_img {
+                        margin-top: 10rem;
+                    }
+                }
+            }
+            .section_connexion {
+                font-family: Poppins;
+                height: 90vh;
+                .align {
+                    padding-top: 11rem;
+                }
+                .titre {
+                    margin: auto;
+                    width: 50%;
+                }
+                .titre_2 {
+                    margin: auto;
+                    width: 91%;
+                }
+                /*****************PARTIE CONNEXION*******************/
+                .d-flex {
+                    margin: auto;
+                    width: 50%;
+                }
+                .mdp_oub {
+                    margin: auto;
+                    width: 57%;
+                }
+                .input {
+                    width: 50%;
+                    padding: 0.5rem;
+                    background-color: $color_blue;
+                    border: white solid 1px;
+                    border-radius: 0.3rem;
+                    &::placeholder {
+                        color: $color_text;
+                    }
+                }
+                .input_inscrip {
+                    width: 100%;
+                    border: #a5a6aa 1px solid;
+                    border-radius: 0.2rem;
+                    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+                }
+                .boutton {
+                    margin: auto;
+                    width: 91%;
+                }
+                .btn {
+                    width: 70%;
+                    background-color: $color_blue;
+                }
+                span {
+                    color: $color_blue;
+                }
+                label {
+                    font-size: small;
+                }
+            }
+            .section_in {
+                font-size: Poppins;
+                form {
+                    padding: 2rem 0rem 0rem 2.1rem;
+                    input[type=text],
+                    [type=email],
+                    [type=number],
+                    [type=date],
+                    select {
+                        width: 85%;
+                        padding: 0.3rem;
+                        border: #88898d solid 1px;
+                        border-radius: 0.2rem;
+                    }
+                    input[type=submit],
+                    [type=reset] {
+                        width: 40%;
+                        background-color: $color_blue;
+                    }
+                }
+                input[type=search] {
+                    width: 15%;
+                    border-radius: 0.2rem;
+                    border: #88898d solid 1px;
+                    background-color: #e3ecfa;
+                    padding: 0.2rem 0.2rem 0.2rem 1rem;
+                    margin: 0rem 2rem 0.2rem 0rem;
+                }
+                & .btn_search {
+                    visibility: hidden;
+                }
+            }
+            .intervention_temp {
+                height: 100vh;
+                .row {
+                    margin-top: 5rem;
+                }
+                button {
+                    border: none;
+                    border-radius: 0.5rem;
+                    margin-top: 2rem;
+                    padding: 0.8rem 5rem 0.8rem 5rem;
+                    background-color: $color_blue;
+                }
+            }
+            .section_table {
+                margin: 0rem 2rem 0rem 2rem;
+                height: 95vh;
+                .tr_top {
+                    background-color: $color_blue;
+                    &>th {
+                        padding: 1rem;
+                    }
+                }
+            }
+            .erreur {
+                background: url(../images/erreur.png) no-repeat;
+                padding-top: 10rem;
+                margin-right: 10rem;
+                height: 90vh;
+                background-size: contain;
+                button {
+                    background-color: $color_blue;
+                    border: none;
+                    border-radius: 0.5rem;
+                    padding: 0.5rem;
+                }
+            }
+            .apropos {
+                height: 80vh;
+                .bg-dark {
+                    height: 10%;
+                    border-radius: 0.5rem 0.5rem 0 0;
+                }
+                p {
+                    text-align: justify;
+                }
+            }
+            .sectionID {
+                display: flex;
+                background-color: rgba(255, 255, 255, 0.8);
+                .bloc-vue {
+                    width: 60%;
+                    background-color: #2b2f3d;
+                    .tr_top {
+                        border-radius: 0.2rem 0.2rem 0 0;
+                        background-color: $color_blue;
+                    }
+                }
+                top: 0;
+                left: 0;
+                right: 0;
+                position: absolute;
+                height: 100vh;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+            footer {
+                background-color: #181b24;
+                bottom: 0;
+                li {
+                    list-style-type: none;
+                    padding-top: 0.8rem;
+                }
+                .li_sp {
+                    color: #88898d;
+                }
+                .first_color {
+                    font-family: Righteous;
+                    color: $color_blue;
+                }
+                .snd_color {
+                    font-family: Righteous;
+                    color: $color_text;
+                }
+                input {
+                    margin-top: 1rem;
+                    width: 70%;
+                    background-color: #2b2f3d;
+                    border: 1px solid #2b2f3d;
+                    border-radius: 0.2rem 0rem 0rem 0.2rem;
+                }
+                button {
+                    background-color: white;
+                    border: 1px solid white;
+                    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+                }
+            }
+        }

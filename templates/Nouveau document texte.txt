@@ -1,0 +1,15 @@
+Afficher les vues de nos pages ///////
+
+
+Intervention faire un tableau qui regroupe toutes les interventions
+Mettre une possibilité : 
+    - Possibilité d'ajouter une une nouvelle intervention ✔
+    - Possibilité de le modifier et de supprimer ✔
+    - Possibilité de creer un compte admin ou user ✔
+    - Possibilité de rajouter une photo de profil du technicien et du client 
+    - Possibilité de modifier son statut ✔
+    - Possibilité d'attribuer l'itntervention à un autre technicien ✔
+    - Renforcer la sécurisation de validation du mot de passe
+    - Rajouter une popup à la création d'un nouveau compte et à la connexion
+    - Afficher une fénetre au clique d'un bouton ✔
+    - Un chargement d'un boutton lors de la connexion ou de l'inscription   

@@ -1,0 +1,271 @@
+@font-face {
+  font-family: "Righteous";
+  src: url(../polices/Righteous-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(../polices/Nunito-Light.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../polices/Poppins-Medium.ttf);
+}
+body {
+  /*****************PARTIE SECTION*******************/
+}
+body header .navbar {
+  font-family: Nunito;
+  background-color: rgb(22, 25, 34);
+}
+body header .navbar .first_color {
+  font-family: Righteous;
+  color: #0E7AE6;
+}
+body header .navbar .snd_color {
+  font-family: Righteous;
+  color: white;
+}
+body header .navbar .navbar-collapse {
+  flex-grow: unset;
+}
+body header .navbar .navbar-collapse li:hover {
+  background-color: #0E7AE6;
+}
+body header .navbar .navbar-collapse li a {
+  color: white;
+}
+body header .navbar .navbar-collapse li a i {
+  color: white;
+}
+body .section_1 .width-custom {
+  width: 80%;
+}
+body .section_1 .carousel-caption {
+  top: 30%;
+}
+body .section_1 .sizing-menu {
+  font-size: 5rem;
+}
+body .section_1 .color_bg {
+  z-index: 5000;
+  background-color: #0E7AE6;
+}
+body .section_2 {
+  height: 100vh;
+}
+body .section_2 .container .box_contact {
+  border-radius: 1rem 0rem 0rem 1rem;
+  margin-top: 10rem;
+  box-shadow: 0.2rem 0.1rem 0.3rem rgb(173, 173, 173);
+}
+body .section_2 .container .box_contact form {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+body .section_2 .container .box_contact form h1,
+body .section_2 .container .box_contact form h5 {
+  padding-left: 6.3rem;
+}
+body .section_2 .container .box_contact form .input_contact {
+  padding: 0.8rem;
+  background: #e3ecfa;
+  border: white 1px solid;
+  width: 70%;
+}
+body .section_2 .container .box_contact form input[type=submit] {
+  background-color: #0E7AE6;
+  border: none;
+}
+body .section_2 .container .box_img {
+  margin-top: 10rem;
+}
+body .section_connexion {
+  font-family: Poppins;
+  height: 90vh;
+  /*****************PARTIE CONNEXION*******************/
+}
+body .section_connexion .align {
+  padding-top: 11rem;
+}
+body .section_connexion .titre {
+  margin: auto;
+  width: 50%;
+}
+body .section_connexion .titre_2 {
+  margin: auto;
+  width: 91%;
+}
+body .section_connexion .d-flex {
+  margin: auto;
+  width: 50%;
+}
+body .section_connexion .mdp_oub {
+  margin: auto;
+  width: 57%;
+}
+body .section_connexion .input {
+  width: 50%;
+  padding: 0.5rem;
+  background-color: #0E7AE6;
+  border: white solid 1px;
+  border-radius: 0.3rem;
+}
+body .section_connexion .input::-moz-placeholder {
+  color: white;
+}
+body .section_connexion .input:-ms-input-placeholder {
+  color: white;
+}
+body .section_connexion .input::placeholder {
+  color: white;
+}
+body .section_connexion .input_inscrip {
+  width: 100%;
+  border: #a5a6aa 1px solid;
+  border-radius: 0.2rem;
+  padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+}
+body .section_connexion .boutton {
+  margin: auto;
+  width: 91%;
+}
+body .section_connexion .btn {
+  width: 70%;
+  background-color: #0E7AE6;
+}
+body .section_connexion span {
+  color: #0E7AE6;
+}
+body .section_connexion label {
+  font-size: small;
+}
+body .section_in {
+  font-size: Poppins;
+}
+body .section_in form {
+  padding: 2rem 0rem 0rem 2.1rem;
+}
+body .section_in form input[type=text],
+body .section_in form [type=email],
+body .section_in form [type=number],
+body .section_in form [type=date],
+body .section_in form select {
+  width: 85%;
+  padding: 0.3rem;
+  border: #88898d solid 1px;
+  border-radius: 0.2rem;
+}
+body .section_in form input[type=submit],
+body .section_in form [type=reset] {
+  width: 40%;
+  background-color: #0E7AE6;
+}
+body .section_in input[type=search] {
+  width: 15%;
+  border-radius: 0.2rem;
+  border: #88898d solid 1px;
+  background-color: #e3ecfa;
+  padding: 0.2rem 0.2rem 0.2rem 1rem;
+  margin: 0rem 2rem 0.2rem 0rem;
+}
+body .section_in .btn_search {
+  visibility: hidden;
+}
+body .intervention_temp {
+  height: 100vh;
+}
+body .intervention_temp .row {
+  margin-top: 5rem;
+}
+body .intervention_temp button {
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  padding: 0.8rem 5rem 0.8rem 5rem;
+  background-color: #0E7AE6;
+}
+body .section_table {
+  margin: 0rem 2rem 0rem 2rem;
+  height: 95vh;
+}
+body .section_table .tr_top {
+  background-color: #0E7AE6;
+}
+body .section_table .tr_top > th {
+  padding: 1rem;
+}
+body .erreur {
+  background: url(../images/erreur.png) no-repeat;
+  padding-top: 10rem;
+  margin-right: 10rem;
+  height: 90vh;
+  background-size: contain;
+}
+body .erreur button {
+  background-color: #0E7AE6;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+body .apropos {
+  height: 80vh;
+}
+body .apropos .bg-dark {
+  height: 10%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+body .apropos p {
+  text-align: justify;
+}
+body .sectionID {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionID .bloc-vue {
+  width: 60%;
+  background-color: #2b2f3d;
+}
+body .sectionID .bloc-vue .tr_top {
+  border-radius: 0.2rem 0.2rem 0 0;
+  background-color: #0E7AE6;
+}
+body footer {
+  background-color: #181b24;
+  bottom: 0;
+}
+body footer li {
+  list-style-type: none;
+  padding-top: 0.8rem;
+}
+body footer .li_sp {
+  color: #88898d;
+}
+body footer .first_color {
+  font-family: Righteous;
+  color: #0E7AE6;
+}
+body footer .snd_color {
+  font-family: Righteous;
+  color: white;
+}
+body footer input {
+  margin-top: 1rem;
+  width: 70%;
+  background-color: #2b2f3d;
+  border: 1px solid #2b2f3d;
+  border-radius: 0.2rem 0rem 0rem 0.2rem;
+}
+body footer button {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+}/*# sourceMappingURL=style.css.map */

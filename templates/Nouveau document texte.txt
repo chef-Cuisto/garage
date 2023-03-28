@@ -12,4 +12,4 @@ Mettre une possibilité :
     - Renforcer la sécurisation de validation du mot de passe
     - Rajouter une popup à la création d'un nouveau compte et à la connexion
     - Afficher une fénetre au clique d'un bouton ✔
-    - Un chargement d'un boutton lors de la connexion ou de l'inscription   
+    - Un chargement d'un boutton lors de la connexion ou de l'inscription  : 
